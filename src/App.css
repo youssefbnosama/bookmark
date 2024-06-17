@@ -1,0 +1,411 @@
+ *{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+ }
+ .navbar {
+  width: 100%;
+  display: flex;
+  padding: 30px 160px;
+  justify-content: space-between;
+ }
+ .navbar img{
+  width: 15%;
+  height: auto;
+  align-self: center;
+  cursor: pointer;
+ }
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+ }
+.navbar ul li  {
+  text-transform: uppercase;
+  cursor: pointer;
+  align-self: center;
+  font-size: 14px;
+}
+.navbar ul li:hover{
+  color: hsl(0, 94%, 66%);
+}
+.navbar ul li:last-child{
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid hsl(0, 81%, 56%);
+  color: hsl(0, 81%, 56%);
+  background-color: white;
+  padding: 3px 15px;
+}
+.header{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px;
+  width:90%;
+  margin: auto;
+  height: 82vh;
+  margin-bottom: 30px;
+}
+.header .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .left h3{
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.784);
+}
+.header .left p{
+  font-size: 14px;
+  margin: 30px 50px 30px 0;
+  color: gray;
+}
+.header .left button{
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid hsl(229, 8%, 60%);
+  background-color: white;
+  margin: 0 10px;
+  border-radius: 5px;
+  color:hsl(229, 8%, 60%) ;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px gray;
+}
+.header .left button:hover{
+  border-color: hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+}
+.header .blue{
+  position: absolute;
+  width: 35%;
+  height: 35vh;
+  background-color:  hsl(231, 69%, 60%);
+  border-top-left-radius:35% ;
+  border-bottom-left-radius:35% ;
+  top: 53%;
+  left: 65%;
+  z-index: -1;
+}
+.features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+
+}
+.features .top{
+  width: 38%;
+  justify-self: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features .top h2{
+  font-weight: 500;
+  margin:20px 0;
+}
+.features .top p{
+  color: gray;
+}
+.features .btns{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.btns button{
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 30px;
+  font-size: 17px;
+  color: rgb(97, 96, 96);
+  cursor: pointer;
+}
+.btns button:hover{
+color: hsl(0, 94%, 66%);
+}
+.features .bottom{
+  position: relative;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+.features .bottom .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.features .bottom .right button{
+  width: 20%;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  cursor: pointer;
+}
+.features .blue{
+  position: absolute;
+  width: 45%;
+  height: 35vh;
+  background-color: hsl(231, 69%, 60%);
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  top: 170%;
+  left: -1%;
+}
+.download{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  margin-bottom: 40px;
+}
+.download .text{
+  width: 40%;
+}
+.download .text h2{
+  text-align: center;
+  font-weight: 500;
+  
+}
+.download .text p{
+  text-align: center;
+  margin: 4px;
+}
+.download .cards{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.download .cards .card{
+  height: 50vh;
+  width: 30%;
+  border-radius: 3px;
+  box-shadow: 1px 1px 12px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;padding: 20px;
+}
+.download .cards .card img{
+  width: 60%;
+}
+.download .cards .card h3{
+  font-weight: 500;
+}
+.download .cards .card p{
+  color: grey;
+  text-align: center;
+
+}
+.download .cards .card button{
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  background-color: hsl(231, 69%, 60%);
+  box-shadow: 1px 1px 3px hsl(231, 69%, 60%);
+  height: 40px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.download .cards .card button:hover{
+  color: hsl(231, 69%, 60%);
+  background-color: white;
+}
+.hr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+.ques{
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+}
+.icon{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-top: 4px solid hsl(231, 69%, 60%);
+  border-left: 1px solid transparent;
+  border-right: 4px solid hsl(231, 69%, 60%);
+  border-bottom: 1px solid transparent;
+  background-color: white;
+  transform: rotateZ(-45deg);
+  margin-left: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.none{
+  display: none;
+}
+.child .top{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.ques h2{
+  text-align: center;
+  font-weight: 500;
+  padding: 20px;
+}
+.ques p{
+  color: grey;
+  text-align: center;
+  padding: 20px;
+}
+.ques .bottom{
+  padding: 20px;
+  width: 100%;
+}
+.ques .bottom h4{
+  font-weight: 400;
+}
+.ques .bottom p{
+  color: grey;
+}
+.ques .bottom .child{
+  padding: 20px;
+}
+.btn{
+  margin-left: calc(50% - 4%);
+  width: 8%;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  background-color: hsl(231, 69%, 60%);
+  box-shadow: 1px 1px 3px hsl(231, 69%, 60%);
+  height: 35px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.btn:hover{
+  color: hsl(231, 69%, 60%);
+  background-color: white;
+}
+.form{
+  margin-top: 40px;
+  width: 100%;
+  height: 40vh;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .container{
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form .container .p{
+  text-align: center;
+  font-size: 15px;
+}
+.form .container h2{
+  text-align: center;
+  font-size: 30px;
+}
+.sub{
+  display: flex;
+  justify-content: space-between;
+}
+.sub input{
+  width: 70%;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  border: 2px solid hsl(231, 69%, 60%);
+  position: relative;
+}
+.sub button{
+  width: 20%;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: hsl(0, 81%, 56%);
+  height: 40px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.sub button:hover{
+  color: hsl(0, 81%, 56%);
+  background-color: white;
+}
+.footer{
+  display: flex;
+  padding: 20px 70px;
+  justify-content: space-between;
+  color: white;
+  background-color: hsl(229, 31%, 21%);
+}
+.footer .left{
+  list-style-type: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.footer .left li{
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.footer .left li:hover{
+  color: hsl(0, 94%, 66%);
+}
+.footer .left img{
+  align-self: center;
+}
+.footer .right{
+  list-style: none;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .right li{
+  cursor: pointer;
+}
+.footer .right li:hover{
+  background-color: hsl(0, 94%, 66%);
+}
+.footer .right img{
+  width: 24px;
+  height: 24px;
+}
+.sub .input{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.error{
+  display: none;
+  text-align: start;
+  font-size: 12px;
+  background-color: hsl(0, 94%, 66%);
+  width: 70%;
+  border-radius: 3px;
+  transform: translateY(-5px);
+  padding:5px;
+}
